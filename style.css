@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box
+    
+}
+body{
+    background-color: rgba(21, 52, 73, 0.69);
+    font-family: sans-serif;
+    
+}
+
+form{
+    position: relative;
+    top: 50px;
+    left: 500px;
+    width: 350px;
+    height: 80vh;
+    background-color: #FFF4;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+.img-logo{
+    position: relative;
+    width: 200px;
+}
+label{
+ color: #40A2E3   
+}
+input{
+   width: 300px;
+   padding: 10px;
+   font-size: 20px;
+    margin-bottom: 5px;  
+    margin-top: 5px;
+    outline: none;
+}
+.invalid{
+    border: 1.5px solid red;
+}
+.error-hint{
+    color: red;
+}
+.pass-hint{
+    color: red;
+}
+.invalid2{
+    border: 1.5px solid red;
+}
+.hidden{
+    display: none;
+}
+.hidden2{
+    display: none;
+}
+button{
+    width: 180px;
+    padding: 10px;
+    color: rgba(21, 52, 73, 0.69);
+    border-radius: 10px;
+    border: 1px solid #40A2E3;
+    transition: all 1s;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #40A2E3 ;
+    color: #fff;
+    border: 1px solid black;
+}
